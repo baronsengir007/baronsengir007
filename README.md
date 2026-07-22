@@ -142,8 +142,8 @@ tactical pause view to command them, and three levels with boss fights.
 - **Event-driven architecture:** FastAPI, Celery, Redis
 - **Evals and observability:** LangFuse (tracing and prompt management), Logfire, Sentry, evals with unit tests and human annotation
 - **Guardrails and AI security:** LLM Guard (PII removal, prompt injection detection, toxicity checks)
-- **Workflow automation:** n8n, Microsoft Azure
-- **Deployment:** Docker, Azure, Linux, Caddy
+- **Workflow automation:** n8n, Microsoft Graph
+- **Deployment:** Docker, Microsoft Azure
 - **AI governance:** EU AI Act, GDPR, NIS2, Responsible AI
 
 ## Contact
