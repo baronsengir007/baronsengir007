@@ -134,9 +134,34 @@ build step: it runs in the browser from a single HTML file.
 weapon systems with missile lock-on, summonable AI allies, an RTS-style
 tactical pause view to command them, and three levels with boss fights.
 
+## Web & frontend: three live demos
+
+Sites you can click, not just read about: three small products built and
+shipped recently, each in a deliberately different visual style, each
+with its design rationale in the repo README (behavior-driven UI: the
+layout is derived from a target behaviour first, then styled from a
+named pattern vocabulary).
+
+- **[Ketelzwart](https://baronsengir007.github.io/ketelzwart/)** - a
+  fictional Amsterdam coffee roastery. Multi-page (home, beans,
+  roastery, visit), editorial serif design with photography.
+  [Source](https://github.com/baronsengir007/ketelzwart)
+- **[Ledgerline](https://baronsengir007.github.io/ledgerline/)** - a
+  fictional B2B SaaS for invoice reconciliation. One-page conversion
+  design with a self-playing product demo in the hero.
+  [Source](https://github.com/baronsengir007/ledgerline)
+- **[seams](https://baronsengir007.github.io/seams/)** - a fictional
+  developer CLI, its product page styled as a man page with an animated
+  terminal. [Source](https://github.com/baronsengir007/seams)
+
+All three: Next.js (App Router, static export), Tailwind CSS,
+TypeScript, deployed on GitHub Pages. Fictional products, clearly
+labeled as demos; the craft is real.
+
 ## Toolbox
 
 - **Agentic AI:** Python, Pydantic AI, MCP, Claude Code
+- **Web & frontend:** Next.js, React, TypeScript, Tailwind CSS
 - **LLM integration:** Anthropic Claude, OpenAI, Mistral, structured outputs with Pydantic
 - **RAG and vector search:** PostgreSQL with pgvector, Qdrant, Docling
 - **Event-driven architecture:** FastAPI, Celery, Redis
