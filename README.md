@@ -158,6 +158,16 @@ All three: Next.js (App Router, static export), Tailwind CSS,
 TypeScript, deployed on GitHub Pages. Fictional products, clearly
 labeled as demos; the craft is real.
 
+Built in Claude Code, but the design decisions run through a fixed
+pipeline rather than prompt-by-prompt: two reference documents of my own
+decide (a behavior-driven UI method and an interface field guide), and
+two Claude Code skills execute against them (`design-taste-frontend` for
+visual direction, `emil-design-eng` for motion rules). Behaviour
+outranks aesthetics at every conflict, and verification is part of the
+loop: real-browser checks at desktop and 390px, measured colour
+contrast, reduced motion tested with the media feature forced on. Each
+repo README spells out the pipeline for that site.
+
 ## Toolbox
 
 - **Agentic AI:** Python, Pydantic AI, MCP, Claude Code
